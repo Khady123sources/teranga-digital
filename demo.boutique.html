@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boutique Awa | Mode et élégance</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+```
+    body {
+        font-family: Arial, sans-serif;
+        color: #332b2b;
+        background: #fffaf7;
+        line-height: 1.6;
+    }
+
+    header {
+        background: #6b2737;
+        color: white;
+        text-align: center;
+        padding: 25px 15px;
+    }
+
+    header h1 {
+        font-size: 32px;
+    }
+
+    nav {
+        margin-top: 12px;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 10px;
+        font-weight: bold;
+    }
+
+    .hero {
+        text-align: center;
+        padding: 65px 20px;
+        background: #f4e4e6;
+    }
+
+    .hero h2 {
+        font-size: 34px;
+        margin-bottom: 15px;
+    }
+
+    .hero p {
+        max-width: 600px;
+        margin: 0 auto 25px;
+    }
+
+    .button {
+        display: inline-block;
+        background: #6b2737;
+        color: white;
+        padding: 13px 22px;
+        border-radius: 6px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    section {
+        padding: 45px 7%;
+    }
+
+    .title {
+        text-align: center;
+        margin-bottom: 28px;
+        font-size: 28px;
+    }
+
+    .products {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+        gap: 20px;
+    }
+
+    .product {
+        background: white;
+        border: 1px solid #eadfe0;
+        border-radius: 10px;
+        overflow: hidden;
+        text-align: center;
+        padding-bottom: 22px;
+    }
+
+    .product-visual {
+        min-height: 140px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #f4e4e6;
+        font-size: 54px;
+    }
+
+    .product h3 {
+        margin: 16px 10px 6px;
+    }
+
+    .price {
+        color: #6b2737;
+        font-size: 19px;
+        font-weight: bold;
+        margin: 10px;
+    }
+
+    .about {
+        background: #f4e4e6;
+        text-align: center;
+    }
+
+    .about p {
+        max-width: 650px;
+        margin: auto;
+    }
+
+    .contact {
+        text-align: center;
+    }
+
+    footer {
+        background: #332b2b;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+
+    @media (max-width: 600px) {
+        .hero h2 {
+            font-size: 28px;
+        }
+
+        nav a {
+            display: inline-block;
+            margin: 5px;
+        }
+    }
+</style>
+```
+
+</head>
+<body>
+
+```
+<header>
+    <h1>Boutique Awa</h1>
+    <p>Mode, élégance et plaisir de se faire belle</p>
+    <nav>
+        <a href="#accueil">Accueil</a>
+        <a href="#produits">Nos produits</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<main>
+    <section class="hero" id="accueil">
+        <h2>Découvrez notre collection</h2>
+        <p>
+            Bienvenue chez Boutique Awa ! Découvrez une sélection
+            de vêtements et d'accessoires pour affirmer votre style.
+        </p>
+        <a class="button" href="#produits">Voir nos produits</a>
+    </section>
+
+    <section id="produits">
+        <h2 class="title">Nos produits</h2>
+
+        <div class="products">
+            <article class="product">
+                <div class="product-visual" aria-hidden="true">👗</div>
+                <h3>Robe élégante</h3>
+                <p>Un style chic pour vos sorties.</p>
+                <p class="price">À partir de 8 000 FCFA</p>
+            </article>
+
+            <article class="product">
+                <div class="product-visual" aria-hidden="true">👜</div>
+                <h3>Sac tendance</h3>
+                <p>Un accessoire pour compléter votre tenue.</p>
+                <p class="price">À partir de 5 000 FCFA</p>
+            </article>
+
+            <article class="product">
+                <div class="product-visual" aria-hidden="true">🧣</div>
+                <h3>Accessoires de mode</h3>
+                <p>Des détails pour personnaliser votre look.</p>
+                <p class="price">À partir de 2 000 FCFA</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="about">
+        <h2 class="title">À propos de nous</h2>
+        <p>
+            Boutique Awa est une boutique fictive créée comme
+            démonstration de mini-site pour les commerçants.
+            Les produits et les prix affichés sont des exemples.
+        </p>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="title">Une question ?</h2>
+        <p>Contactez-nous pour obtenir des informations sur nos produits.</p>
+        <p style="margin: 20px 0;">
+            <strong>WhatsApp :</strong> Coordonnées de démonstration à configurer
+        </p>
+        <a class="button" href="#accueil">Retour en haut</a>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 Boutique Awa — Site de démonstration Teranga Digital</p>
+</footer>
+```
+
+</body>
+</html>
